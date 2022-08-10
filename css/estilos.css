@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+}
+
+body {
+    background-color: var(--main-color);
+    color: white;
+}
+
+:root {
+    --main-color: #071218;
+    --main-color-low: #2e3a59;
+    --seconday-color: #00d6c1;
+    --seconday-color-low: #20fdac;
+    --secondary-color-ultra-low: #cdffa9;
+}
+
+/* 
+.color1 {color: #071218;}
+.color2 {color: #2e3a59;}
+.color3 {color: #00d6c1;}
+.color4 {color: #20fdac;}
+.color5 {color: #cdffa9;}
+ */
+
+
+/* NAVBAR */
+
+.navbar {
+    background-color: var(--main-color-low);
+}
+
+.navbar-brand {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 24px;
+}
+
+/* CARD */
+
+.card {
+    background-color: var(--main-color-low);
+    cursor: pointer;
+}
+
+.card:hover {
+    transition: 0.4s all;
+}
+
+.card:hover .list-group-item{
+    transition: 0.4s all;
+}
+
+.list-group-item {
+    background-color: var(--main-color-low);
+    color: rgb(188, 188, 188);
+}
+
+.card:hover img{
+    -webkit-filter: blur(0);
+}
+
+.card-img-top{
+    -webkit-filter: blur(0.6px);
+}
+
+.btn-card {
+    background-color: var(--seconday-color);
+}
+
+.btn-card:hover {
+    background-color: var(--seconday-color-low);
+}
+
